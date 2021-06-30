@@ -1,0 +1,22 @@
+.proyect {
+    width: 200px;
+    max-width: 250px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 35px 1fr;
+    align-items: center;
+    justify-items: center;
+}
+.proyect h3 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    font-weight: bold;
+    font-size: 16px;
+}
+.proyect p {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: justify;
+}

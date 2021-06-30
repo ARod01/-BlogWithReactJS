@@ -1,0 +1,14 @@
+.footer {
+    width: 100%;
+    background-color: #b9b9b9;
+}
+    .footer__green {
+    height: 30px;
+}
+.footer__contact {
+    height: 30px;
+    background-color: #18121e;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: center;
+}
