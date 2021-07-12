@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from '../component/Header';
 import Contact from '../component/Contact';
 import Footer from '../component/Footer';
 
@@ -10,7 +9,6 @@ class Blog extends React.Component{
     render(){
         return(
             <React.Fragment>
-                <Header />
                 <main className="blog">
                     <img className="blog__img" src={MainNew} alt="main news" />
                     <section className="blog__text">

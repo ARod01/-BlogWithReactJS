@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Header from '../component/Header';
 import News from '../component/News';
 import Footer from '../component/Footer';
 
@@ -14,7 +13,6 @@ class Blogs extends React.Component{
     render(){
         return(
             <React.Fragment>
-                <Header />
                 <main className="blogs">
                     <section className="blogs__main">
                         <h2 className="blogs__main-title">Noticias</h2>

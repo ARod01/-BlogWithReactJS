@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from '../component/Header';
 import Contact from '../component/Contact';
 import Footer from '../component/Footer';
 import Proyect from '../component/Proyect';
@@ -11,7 +10,6 @@ class Profile extends React.Component{
     render(){
         return(
             <React.Fragment>
-                <Header />
                 <main>
                     <section className="perfil__data">
                         <img src={Profilepicture} alt="imagen de perfil" />
